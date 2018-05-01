@@ -16,4 +16,14 @@ Miscellaneous scripts for my CNC machine (raspberry pi)
 
 ---------
 
+# Samba gcode share files (watch dir)
+
+#Install samba
+sudo apt-get install samba samba-common-bin
+
+#Copy smb.conf to /etc/samba dir
+/etc/samba/smb.conf
+
+#Restart samba service
+sudo /etc/init.d/samba restart
 
