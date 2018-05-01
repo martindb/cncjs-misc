@@ -44,7 +44,7 @@ https://github.com/luetzel/bluez
 #Change in
 /usr/bin/btuart
 
-921600 with 460800 and rebooting
+921600 with 460800 and reboot
 
 
 
