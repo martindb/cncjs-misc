@@ -37,4 +37,14 @@ https://raspberryblog.de/?p=1870
 Patched bluez from here:
 https://github.com/luetzel/bluez
 
+---------
+
+# BT errors (Bluetooth: hci0: Frame reassembly failed)
+
+#Change in
+/usr/bin/btuart
+
+921600 with 460800 and rebooting
+
+
 
