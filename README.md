@@ -1,6 +1,6 @@
 # cncjs-misc
 
-Miscellaneous scripts for my CNC machine (raspberry pi)
+Miscellaneous scripts/configs/notes for my CNC machine (raspberry pi)
 
 ----
 
@@ -16,7 +16,7 @@ Miscellaneous scripts for my CNC machine (raspberry pi)
 
 ---------
 
-# Samba gcode share files (watch dir)
+# Samba gcode share files (CNCjs watch dir)
 
 #Install samba
 sudo apt-get install samba samba-common-bin
@@ -26,4 +26,15 @@ sudo apt-get install samba samba-common-bin
 
 #Restart samba service
 sudo /etc/init.d/samba restart
+
+-----
+
+# Dualshock 3 (PS3) Shanwan clone pendant
+
+Guide for connecting to RPI 3 internal BT:
+https://raspberryblog.de/?p=1870
+
+Patched bluez from here:
+https://github.com/luetzel/bluez
+
 
