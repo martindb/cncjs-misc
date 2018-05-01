@@ -23,12 +23,15 @@ Miscellaneous scripts/configs/notes for my CNC machine (raspberry pi)
 # Samba gcode share files (CNCjs watch dir)
 
 #Install samba
+
 sudo apt-get install samba samba-common-bin
 
 #Copy smb.conf to /etc/samba dir
+
 /etc/samba/smb.conf
 
 #Restart samba service
+
 sudo /etc/init.d/samba restart
 
 -----
@@ -45,10 +48,7 @@ https://github.com/luetzel/bluez
 
 # BT errors (Bluetooth: hci0: Frame reassembly failed)
 
-#Change in
-/usr/bin/btuart
-
-921600 with 460800 and reboot
+Change in /usr/bin/btuart 921600 with 460800 and reboot
 
 
 
