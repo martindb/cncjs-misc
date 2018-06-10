@@ -3,18 +3,32 @@
 Miscellaneous scripts/configs/notes for my CNC machine (raspberry pi)
 
 ----
+# Install NOOBS / Raspbian
+
+https://www.raspberrypi.org/downloads/noobs/
+
+https://www.sdcard.org/downloads/formatter_4/eula_mac/
+
+----
+# Install CNCJS
+
+
+----
+# Install Chilipeppr
+
+----
 
 # Startups all with root's cron (sudo crontab -e)
 
-#Starteo CNCjs, streamer de la camara y pendant para el DS3
+#Start CNCjs, video streamer and pendants
 
 @reboot cnc -m /pendant:/home/pi/cncjs-pendant-tinyweb-1.2.4/src -m /tablet:/home/pi/cncjs-shopfloor-tablet-1.0.4/src -w /home/pi/gcode
 
-@reboot /home/pi/mjpg-streamer.sh start
+###@reboot /home/pi/mjpg-streamer.sh start
 
 @reboot /home/pi/cncjs-pendant-ps3.sh
 
-#Starteo el servicio de chilipeppr
+#Start chilipeppr
 
 @reboot /home/pi/chilipeppr/serial-port-json-server
 
@@ -49,6 +63,4 @@ https://github.com/luetzel/bluez
 # BT errors (Bluetooth: hci0: Frame reassembly failed)
 
 Change in /usr/bin/btuart 921600 with 460800 and reboot
-
-
 
