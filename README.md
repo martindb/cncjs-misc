@@ -11,7 +11,7 @@ https://www.sdcard.org/downloads/formatter_4/eula_mac/
 
 Tips:
 - Disable GUI
-- Set wifi, ssh, serial, tz, wifi country, locale
+- Set hostname, wifi, ssh, serial, tz, wifi country, locale
 - Change passwords
 - Add keys
 - Free space
@@ -62,10 +62,6 @@ sudo apt-get install samba samba-common-bin
 
 sudo /etc/init.d/samba restart
 
------
-# Install CNCJS
-
-
 ----
 # Install Chilipeppr
 
@@ -75,21 +71,47 @@ https://github.com/chilipeppr/serial-port-json-server/releases
 Install in /home/pi/chilipeppr
 Use chilipeppr.sh to exetue it (infinite loop)
 
+-----
+# Install CNCJS
+
+https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-System-Setup-&-Preparation
+
+Not use PM2 (will use cron)
+
 ----
+
+# Install tablet pendant
+
+mkdir /home/pi/cncjs/
+
+cd /home/pi/cncjs/
+
+wget https://github.com/cncjs/cncjs-shopfloor-tablet/archive/v1.0.4.tar.gz
+
+tar zxf v1.0.4.tar.gz
+
+----
+
 
 # Startups all with root's cron (sudo crontab -e)
 
-#Start CNCjs, video streamer and pendants
-
-@reboot cnc -m /pendant:/home/pi/cncjs-pendant-tinyweb-1.2.4/src -m /tablet:/home/pi/cncjs-shopfloor-tablet-1.0.4/src -w /home/pi/gcode
-
-###@reboot /home/pi/mjpg-streamer.sh start
-
-@reboot /home/pi/cncjs-pendant-ps3.sh
 
 #Start chilipeppr
 
 @reboot /home/pi/chilipeppr/chilipeppr.sh
+
+#Start CNCjs and pendants
+
+@reboot cnc -m /tablet:/home/pi/cncjs-shopfloor-tablet-1.0.4/src -w /home/pi/gcode
+
+@reboot /home/pi/cncjs/cncjs-pendant-ps3.sh
+
+###@reboot cnc -m /pendant:/home/pi/cncjs-pendant-tinyweb-1.2.4/src -m /tablet:/home/pi/cncjs-shopfloor-tablet-1.0.4/src -w /home/pi/gcode
+
+#Start video streamer
+
+###@reboot /home/pi/mjpg-streamer.sh start
+
 
 ---------
 
