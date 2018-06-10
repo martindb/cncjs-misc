@@ -3,11 +3,22 @@
 Miscellaneous scripts/configs/notes for my CNC machine (raspberry pi)
 
 ----
-# Install NOOBS / Raspbian
+# Install NOOBS / Config Raspbian
 
 https://www.raspberrypi.org/downloads/noobs/
-
 https://www.sdcard.org/downloads/formatter_4/eula_mac/
+
+
+https://lifehacker.com/instantly-free-up-almost-1gb-on-your-raspberry-pi-by-di-1773831271
+https://www.raspberrypi.org/documentation/raspbian/updating.md
+
+
+
+$ export LANGUAGE=en_US.UTF-8
+$ export LANG=en_US.UTF-8
+$ export LC_ALL=en_US.UTF-8
+$ locale-gen en_US.UTF-8
+$ dpkg-reconfigure locales
 
 ----
 # Install CNCJS
@@ -15,6 +26,13 @@ https://www.sdcard.org/downloads/formatter_4/eula_mac/
 
 ----
 # Install Chilipeppr
+
+----
+# Power button and LED
+
+https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
+https://howchoo.com/g/ytzjyzy4m2e/build-a-simple-raspberry-pi-led-power-status-indicator
+
 
 ----
 
