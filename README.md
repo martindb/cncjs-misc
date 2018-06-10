@@ -72,10 +72,8 @@ sudo /etc/init.d/samba restart
 http://chilipeppr.com/jpadie
 https://github.com/chilipeppr/serial-port-json-server/releases
 
-mkdir /home/pi/chilipeppr
-
-wget https://github.com/chilipeppr/serial-port-json-server/releases/download/v1.95/serial-port-json-server-1.95_linux_arm.tar.gz
-
+Install in /home/pi/chilipeppr
+Use chilipeppr.sh to exetue it (infinite loop)
 
 ----
 
@@ -91,7 +89,7 @@ wget https://github.com/chilipeppr/serial-port-json-server/releases/download/v1.
 
 #Start chilipeppr
 
-@reboot /home/pi/chilipeppr/serial-port-json-server
+@reboot /home/pi/chilipeppr/chilipeppr.sh
 
 ---------
 
