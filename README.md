@@ -69,6 +69,7 @@ sudo /etc/init.d/samba restart
 ----
 # Install Chilipeppr
 
+http://chilipeppr.com/jpadie
 
 ----
 
