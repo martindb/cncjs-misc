@@ -34,6 +34,12 @@ dpkg-reconfigure locales
 https://www.raspberrypi.org/documentation/raspbian/updating.md
 
 
+----
+# Power button and LED
+
+https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
+https://howchoo.com/g/ytzjyzy4m2e/build-a-simple-raspberry-pi-led-power-status-indicator
+
 
 ----
 # Install CNCJS
@@ -41,12 +47,6 @@ https://www.raspberrypi.org/documentation/raspbian/updating.md
 
 ----
 # Install Chilipeppr
-
-----
-# Power button and LED
-
-https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
-https://howchoo.com/g/ytzjyzy4m2e/build-a-simple-raspberry-pi-led-power-status-indicator
 
 
 ----
