@@ -69,6 +69,7 @@ http://chilipeppr.com/jpadie
 https://github.com/chilipeppr/serial-port-json-server/releases
 
 Install in /home/pi/chilipeppr
+
 Use chilipeppr.sh to exetue it (infinite loop)
 
 -----
