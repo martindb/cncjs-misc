@@ -46,6 +46,10 @@ TEST!
 
 # Samba gcode share files (CNCjs watch dir)
 
+mkdir /home/pi/gcode
+
+chmod 777 /home/pi/gcode
+
 #Install samba
 
 sudo apt-get install samba samba-common-bin
