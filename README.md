@@ -16,20 +16,24 @@ Tips:
 - Add keys
 - Free space
 https://lifehacker.com/instantly-free-up-almost-1gb-on-your-raspberry-pi-by-di-1773831271
+
+- As root
+
+export LANGUAGE=en_US.UTF-8
+
+export LANG=en_US.UTF-8
+
+export LC_ALL=en_US.UTF-8
+
+locale-gen en_US.UTF-8
+
+dpkg-reconfigure locales
+
+
 - Update/Upgrade
 https://www.raspberrypi.org/documentation/raspbian/updating.md
 
 
-
-$ export LANGUAGE=en_US.UTF-8
-
-$ export LANG=en_US.UTF-8
-
-$ export LC_ALL=en_US.UTF-8
-
-$ locale-gen en_US.UTF-8
-
-$ dpkg-reconfigure locales
 
 ----
 # Install CNCJS
