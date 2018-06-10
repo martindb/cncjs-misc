@@ -46,9 +46,9 @@ TEST!
 
 # Samba gcode share files (CNCjs watch dir)
 
-mkdir /home/pi/gcode
+mkdir -p /home/pi/cncjs/gcode
 
-chmod 777 /home/pi/gcode
+chmod 777 /home/pi/cncjs/gcode
 
 #Install samba
 
@@ -83,7 +83,7 @@ Not use PM2 (will use cron)
 
 # Install tablet pendant
 
-mkdir /home/pi/cncjs/
+mkdir -p /home/pi/cncjs/
 
 cd /home/pi/cncjs/
 
@@ -103,7 +103,7 @@ tar zxf v1.0.4.tar.gz
 
 #Start CNCjs and pendants
 
-@reboot cnc -m /tablet:/home/pi/cncjs-shopfloor-tablet-1.0.4/src -w /home/pi/gcode
+@reboot cnc -m /tablet:/home/pi/cncjs-shopfloor-tablet-1.0.4/src -w /home/pi/cncjs/gcode
 
 @reboot /home/pi/cncjs/cncjs-pendant-ps3.sh
 
