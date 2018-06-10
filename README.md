@@ -115,6 +115,15 @@ tar zxf v1.0.4.tar.gz
 
 
 ---------
+---------
+
+# Falta esta parte
+
+Estoy probando con el bluez 5.48
+
+https://scribles.net/updating-bluez-on-raspberry-pi-5-43-to-5-48/
+
+Veremos si anda con este, o tengo que usar el patcheado.... pero necresito conectar el ds3 al usb y ya lo tengo todo cerrado.... cuando lo abra ponerle el soporte a la SD!!!!
 
 # Dualshock 3 (PS3) Shanwan clone pendant
 
@@ -129,4 +138,7 @@ https://github.com/luetzel/bluez
 # BT errors (Bluetooth: hci0: Frame reassembly failed)
 
 Change in /usr/bin/btuart 921600 with 460800 and reboot
+
+
+
 
