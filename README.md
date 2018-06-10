@@ -1,6 +1,6 @@
 # cncjs-misc
 
-Miscellaneous scripts/configs/notes for my CNC machine (raspberry pi)
+Miscellaneous scripts/configs/notes guide for my CNC machine (raspberry pi)
 
 ----
 # Install NOOBS / Config Raspbian
@@ -40,8 +40,25 @@ https://www.raspberrypi.org/documentation/raspbian/updating.md
 https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
 https://howchoo.com/g/ytzjyzy4m2e/build-a-simple-raspberry-pi-led-power-status-indicator
 
+TEST!
 
 ----
+
+# Samba gcode share files (CNCjs watch dir)
+
+#Install samba
+
+sudo apt-get install samba samba-common-bin
+
+#Copy smb.conf to /etc/samba dir
+
+/etc/samba/smb.conf
+
+#Restart samba service
+
+sudo /etc/init.d/samba restart
+
+-----
 # Install CNCJS
 
 
@@ -66,22 +83,6 @@ https://howchoo.com/g/ytzjyzy4m2e/build-a-simple-raspberry-pi-led-power-status-i
 @reboot /home/pi/chilipeppr/serial-port-json-server
 
 ---------
-
-# Samba gcode share files (CNCjs watch dir)
-
-#Install samba
-
-sudo apt-get install samba samba-common-bin
-
-#Copy smb.conf to /etc/samba dir
-
-/etc/samba/smb.conf
-
-#Restart samba service
-
-sudo /etc/init.d/samba restart
-
------
 
 # Dualshock 3 (PS3) Shanwan clone pendant
 
