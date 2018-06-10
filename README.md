@@ -9,7 +9,14 @@ https://www.raspberrypi.org/downloads/noobs/
 https://www.sdcard.org/downloads/formatter_4/eula_mac/
 
 
+Tips:
+- Disable GUI
+- Set wifi, ssh, serial, tz, wifi country, locale
+- Change passwords
+- Add keys
+- Free space
 https://lifehacker.com/instantly-free-up-almost-1gb-on-your-raspberry-pi-by-di-1773831271
+- Update/Upgrade
 https://www.raspberrypi.org/documentation/raspbian/updating.md
 
 
