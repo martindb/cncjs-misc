@@ -100,18 +100,7 @@ tar zxf v1.0.4.tar.gz
 
 ###@reboot /home/pi/mjpg-streamer.sh start
 
-
 ---------
----------
-
-# Falta esta parte
-
-Estoy probando con el bluez 5.48
-
-https://scribles.net/updating-bluez-on-raspberry-pi-5-43-to-5-48/
-
-Veremos si anda con este, o tengo que usar el patcheado.... pero necresito conectar el ds3 al usb y ya lo tengo todo cerrado.... cuando lo abra ponerle el soporte a la SD!!!!
-
 # Dualshock 3 (PS3) Shanwan clone pendant
 
 Guide for connecting to RPI 3 internal BT:
@@ -119,6 +108,17 @@ https://raspberryblog.de/?p=1870
 
 Patched bluez from here:
 https://github.com/luetzel/bluez
+
+---------
+---------
+
+# Falta esta parte - NO ANDA parece
+
+Estoy probando con el bluez 5.48
+
+https://scribles.net/updating-bluez-on-raspberry-pi-5-43-to-5-48/
+
+Veremos si anda con este, o tengo que usar el patcheado.... pero necresito conectar el ds3 al usb y ya lo tengo todo cerrado.... cuando lo abra ponerle el soporte a la SD!!!!
 
 ---------
 
