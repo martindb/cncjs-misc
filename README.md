@@ -81,17 +81,16 @@ tar zxf v1.0.4.tar.gz
 ---------
 # Dualshock 3 (PS3) Shanwan clone pendant
 
-Install patched bluez as described here:
+Install cncjs-pendant-ps3 as described here:
+https://github.com/cncjs/cncjs-pendant-ps3
+
+To pair a Shanwan PS3 clone, install patched bluez as described here:
 https://raspberryblog.de/?p=1870
 
 Patched bluez from here:
 https://github.com/luetzel/bluez
 
-Execute this procedure:
-https://github.com/cncjs/cncjs-pendant-ps3
-
-Install cncjs-pendant-ps3
-wget https://github.com/cncjs/cncjs-pendant-ps3/archive/master.zip
+Using procesure to pair in cncjs-pendante-ps3 readme.
 
 
 ----
