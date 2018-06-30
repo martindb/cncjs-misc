@@ -78,8 +78,23 @@ wget https://github.com/cncjs/cncjs-shopfloor-tablet/archive/v1.0.4.tar.gz
 
 tar zxf v1.0.4.tar.gz
 
-----
+---------
+# Dualshock 3 (PS3) Shanwan clone pendant
 
+Install patched bluez as described here:
+https://raspberryblog.de/?p=1870
+
+Patched bluez from here:
+https://github.com/luetzel/bluez
+
+Execute this procedure:
+https://github.com/cncjs/cncjs-pendant-ps3
+
+Install cncjs-pendant-ps3
+wget https://github.com/cncjs/cncjs-pendant-ps3/archive/master.zip
+
+
+----
 
 # Startups all with root's cron (sudo crontab -e)
 
@@ -100,14 +115,7 @@ tar zxf v1.0.4.tar.gz
 
 ###@reboot /home/pi/mjpg-streamer.sh start
 
----------
-# Dualshock 3 (PS3) Shanwan clone pendant
 
-Guide for connecting to RPI 3 internal BT:
-https://raspberryblog.de/?p=1870
-
-Patched bluez from here:
-https://github.com/luetzel/bluez
 
 ---------
 ---------
