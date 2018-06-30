@@ -92,6 +92,9 @@ https://github.com/luetzel/bluez
 
 Using procesure to pair in cncjs-pendante-ps3 readme.
 
+Replace index.js in /usr/lib/node_modules/cncjs-pendant-ps3 with my version:
+https://github.com/martindb/cncjs-pendant-ps3
+
 
 ----
 
@@ -107,6 +110,8 @@ Using procesure to pair in cncjs-pendante-ps3 readme.
 @reboot cnc -m /tablet:/home/pi/cncjs-shopfloor-tablet-1.0.4/src -w /home/pi/cncjs/gcode
 
 @reboot /home/pi/cncjs/cncjs-pendant-ps3.sh
+
+
 
 ###@reboot cnc -m /pendant:/home/pi/cncjs-pendant-tinyweb-1.2.4/src -m /tablet:/home/pi/cncjs-shopfloor-tablet-1.0.4/src -w /home/pi/gcode
 
