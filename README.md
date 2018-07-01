@@ -53,6 +53,7 @@ sudo /etc/init.d/samba restart
 # Install Chilipeppr
 
 http://chilipeppr.com/jpadie
+
 https://github.com/chilipeppr/serial-port-json-server/releases
 
 Install in /home/pi/chilipeppr
@@ -82,17 +83,21 @@ tar zxf v1.0.4.tar.gz
 # Dualshock 3 (PS3) Shanwan clone pendant
 
 Install cncjs-pendant-ps3 as described here:
+
 https://github.com/cncjs/cncjs-pendant-ps3
 
 To pair a Shanwan PS3 clone, install patched bluez as described here:
+
 https://raspberryblog.de/?p=1870
 
 Patched bluez from here:
+
 https://github.com/luetzel/bluez
 
 Using procesure to pair in cncjs-pendante-ps3 readme.
 
 Replace index.js in /usr/lib/node_modules/cncjs-pendant-ps3 with my version:
+
 https://github.com/martindb/cncjs-pendant-ps3
 
 
@@ -120,24 +125,11 @@ https://github.com/martindb/cncjs-pendant-ps3
 ###@reboot /home/pi/mjpg-streamer.sh start
 
 
-
----------
----------
-
-# Falta esta parte - NO ANDA parece
-
-Estoy probando con el bluez 5.48
-
-https://scribles.net/updating-bluez-on-raspberry-pi-5-43-to-5-48/
-
-Veremos si anda con este, o tengo que usar el patcheado.... pero necresito conectar el ds3 al usb y ya lo tengo todo cerrado.... cuando lo abra ponerle el soporte a la SD!!!!
-
 ---------
 
 # BT errors (Bluetooth: hci0: Frame reassembly failed)
 
 Change in /usr/bin/btuart 921600 with 460800 and reboot
-
 
 
 
